@@ -214,16 +214,21 @@ input[type=submit]:hover {
     #cta-banner .cta-btn{
         font-size: 22px;
     }
+     
 }
 @media (min-width: 1265px) {
 
     .container .wrap {
         padding: 15px calc(5% + 15px);
+    } 
+}
+@media (max-width: 1265px) { 
+    br{
+        display: none;
     }
    
 }
-
-@media (max-width: 1239px) {
+@media (max-width: 1180px) {
     [data-line-height-40="line-height-40"] {
         line-height: 35px;
     }
