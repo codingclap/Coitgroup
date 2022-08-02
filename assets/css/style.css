@@ -1,6 +1,6 @@
 /********  Banner - 1 ******/
 #banner {
-    background-image: url('/assets/images/banner.jpg');
+    background-image: url('../../assets/images/banner.jpg');
     min-height: 950px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -130,7 +130,7 @@ input[type=submit]:hover {
 
 /********  Section - 6 ******/
 #cta-banner{
-    background-image: url('/assets/images/cta-banner.jpg');
+    background-image: url('../../assets/images/cta-banner.jpg');
     min-height: 400px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -169,7 +169,7 @@ input[type=submit]:hover {
 /******** Section - 7 ******/
 #footer-banner{
     width: 100%;
-    background-image: url(/assets/images/coit-team.jpg);
+    background-image: url(../../assets/images/coit-team.jpg);
     height:calc(100vh - (2em + 18px));;
     background-size:cover;
     background-repeat: no-repeat;
