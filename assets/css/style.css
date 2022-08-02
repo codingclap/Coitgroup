@@ -170,7 +170,7 @@ input[type=submit]:hover {
 #footer-banner{
     width: 100%;
     background-image: url(../../assets/images/coit-team.jpg);
-    height:calc(100vh - (2em + 18px));;
+    height:calc(100vw * 934/2064);
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
