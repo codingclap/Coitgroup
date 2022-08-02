@@ -195,7 +195,25 @@ input[type=submit]:hover {
 
 
 
-
+@media(max-width: 1440px) {
+   
+    h1.small {
+        font-size: 40px;
+    }
+    p.larger {
+        font-size: 20px; 
+    }
+    h2.small {
+        font-size: 35px;
+    }
+    p.extraLarger {
+        font-size: 25px;
+        letter-spacing: -0.019em;
+    }
+    #cta-banner .cta-btn{
+        font-size: 22px;
+    }
+}
 @media (min-width: 1265px) {
 
     .container .wrap {
@@ -203,12 +221,21 @@ input[type=submit]:hover {
     }
    
 }
-@media(max-width: 1450px) {
+
+@media (max-width: 1239px) {
     br{
         display: none;
     }
-}
-@media (max-width: 1239px) {
+    .mobile-center{
+        text-align: center;
+    }
+    .gap{
+        gap:20px;
+    }
+    .form-container{
+        max-width: 700px;
+        margin:0 auto;
+    }
     .wrap-reverse{
     flex-wrap: wrap-reverse;
     }
@@ -253,7 +280,29 @@ input[type=submit]:hover {
     }
 }
 
-@media (max-width: 1023px) {
+@media (max-width: 1024px) {
+   
+    .form-container{
+        max-width: 700px;
+    }
+    h1.small {
+        font-size: 38px;
+    }
+    p.larger {
+        font-size: 18px; 
+    }
+    h2.small {
+        font-size: 33px;
+    }
+    p.extraLarger {
+        font-size: 23px;
+        letter-spacing: -0.019em;
+    }
+    #cta-banner .cta-btn{
+        font-size: 22px;
+    }
+
+
     .flex:not(.later)>[class*="col-"]:not([class*="phablet-col-"]):not([class*="phone-col-"]) {
         width: 100%;
     }
@@ -300,6 +349,22 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 767px) {
+    h1.small {
+        font-size: 37px;
+    }
+    p.larger {
+        font-size: 17px; 
+    }
+    h2.small {
+        font-size: 32px;
+    }
+    p.extraLarger {
+        font-size: 22px;
+        letter-spacing: -0.019em;
+    }
+    .form-container{
+        max-width: 100%;
+    }
     .splide__arrow--prev {
         left: -1em;
     }
@@ -336,6 +401,19 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 435px) {
+    h1.small {
+        font-size: 35px;
+    }
+    p.larger {
+        font-size: 16px; 
+    }
+    h2.small {
+        font-size: 30px;
+    }
+    p.extraLarger {
+        font-size: 20px;
+        letter-spacing: -0.019em;
+    }
     .flex>[class*="col-"] {
         width: 100%;
     }
