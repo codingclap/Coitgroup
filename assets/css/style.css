@@ -195,6 +195,7 @@ input[type=submit]:hover {
 
 
 
+
 @media(max-width: 1440px) {
    
     h1.small {
@@ -223,6 +224,13 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 1239px) {
+    [data-line-height-40="line-height-40"] {
+        line-height: 35px;
+    }
+    
+    [data-line-height-60="line-height-60"] {
+        line-height: 52px;
+    }
     br{
         display: none;
     }
@@ -281,7 +289,13 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 1024px) {
-   
+    [data-line-height-40="line-height-40"] {
+        line-height: 33px;
+    }
+    
+    [data-line-height-60="line-height-60"] {
+        line-height: 50px;
+    }
     .form-container{
         max-width: 700px;
     }
@@ -299,7 +313,10 @@ input[type=submit]:hover {
         letter-spacing: -0.019em;
     }
     #cta-banner .cta-btn{
-        font-size: 22px;
+        font-size: 20px;
+    }
+    .btn {
+        font-size: 20px;
     }
 
 
@@ -349,6 +366,13 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 767px) {
+    [data-line-height-40="line-height-40"] {
+        line-height: 28px;
+    }
+    
+    [data-line-height-60="line-height-60"] {
+        line-height: 46px;
+    }
     h1.small {
         font-size: 37px;
     }
@@ -401,6 +425,15 @@ input[type=submit]:hover {
 }
 
 @media (max-width: 435px) {
+    #cta-banner .cta-btn{
+        font-size: 18px;
+    }
+    .btn {
+        font-size: 18px;
+    }
+    #cta-banner .cta-btn {
+        min-width: 290px;
+    }
     h1.small {
         font-size: 35px;
     }
